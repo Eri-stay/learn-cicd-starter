@@ -15,8 +15,8 @@ func TestGetAPIKey(t *testing.T) {
 
 	tests := map[string]test{
 		"valid_api_key": {
-			headers: http.Header{"Authorization": []string{"ApiKey 12345abcdeZ"}},
-			want:    "12345abcde",
+			headers: http.Header{"Authorization": []string{"ApiKey 12345abcdeg"}},
+			want:    "12345abcdeg",
 			err:     nil,
 		},
 		"invalid_authorization_header": {
