@@ -52,3 +52,5 @@ func TestGetAPIKey(t *testing.T) {
 		})
 	}
 }
+
+// just to check if mail is changed
